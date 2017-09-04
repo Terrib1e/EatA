@@ -26,15 +26,16 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   background: #2e7bcf url(../images/foodheader.jpg) 0 0 no-repeat;
-  text-shadow: 3px 3px 8px #000;
-
-  max-width:100%;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   //background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
+header img{
+  max-width:100%;
 
+}
 header h1 {
+  text-shadow: 3px 3px 8px #000;
   width: 540px;
   margin-top: 0;
   margin-bottom: 0.2em;
